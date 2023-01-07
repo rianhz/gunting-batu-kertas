@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(52, 50, 50);
+  color: white;
+}
+.mulai {
+  width: 150px;
+  height: 150px;
+  font-size: 40px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.btn {
+  width: 200px;
+}
+
+#result-wrapper {
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  transition: 0.5s;
+  width: 400px;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 400px) {
+  .btn {
+    width: 100px;
+  }
+  .mulai {
+    font-size: 20px;
+    width: 120px;
+    height: 120px;
+    margin: 15px 0;
+  }
+}
